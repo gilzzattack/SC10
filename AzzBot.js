@@ -29,9 +29,9 @@ let _cmdUser = JSON.parse(fs.readFileSync('./database/commandUser.json'));
 let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
-limitawal = '10'
-botname = 'AzzBot•MD'
-wm = '© AzzBot - MD'
+limitawal = '50'
+botname = 'GilzzBot•MD'
+wm = '© Gilzz - MD'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -2676,128 +2676,127 @@ anu = `Hai kak ${pushname}, have a nice day:)
 ✔︎ *Bot Name:* _${global.botname}_
 ✔︎ *Owner Name:* _${global.ownername}_
 ✔︎ *Runtime:* _${runtime(process.uptime())}_
-✔︎ *Gc Bot:* _${global.gc}_
 ✔︎ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 ✔︎ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_ 
 ✔︎ *Library:* _Baileys-Md_
 
 ♕︎ *Group*
-   ⚠︎ ${prefix}linkgroup
-   ⚠︎ ${prefix}ephemeral [option]
-   ⚠︎ ${prefix}setppgc [image]
-   ⚠︎ ${prefix}setname [text]
-   ⚠︎ ${prefix}setdesc [text]
-   ⚠︎ ${prefix}group [option]
-   ⚠︎ ${prefix}editinfo [option]
-   ⚠︎ ${prefix}add @user
-   ⚠︎ ${prefix}kick @user
-   ⚠︎ ${prefix}hidetag [text]
-   ⚠︎ ${prefix}tagall [text]
-   ⚠︎ ${prefix}antilink [on/off]
-   ⚠︎ ${prefix}mute [on/off]
-   ⚠︎ ${prefix}promote @user
-   ⚠︎ ${prefix}demote @user
-   ⚠︎ ${prefix}vote [text]
-   ⚠︎ ${prefix}devote
-   ⚠︎ ${prefix}upvote
-   ⚠︎ ${prefix}cekvote
-   ⚠︎ ${prefix}hapusvote
+   × ${prefix}linkgroup
+   × ${prefix}ephemeral [option]
+   × ${prefix}setppgc [image]
+   × ${prefix}setname [text]
+   × ${prefix}setdesc [text]
+   × ${prefix}group [option]
+   × ${prefix}editinfo [option]
+   × ${prefix}add @user
+   × ${prefix}kick @user
+   × ${prefix}hidetag [text]
+   × ${prefix}tagall [text]
+   × ${prefix}antilink [on/off]
+   × ${prefix}mute [on/off]
+   × ${prefix}promote @user
+   × ${prefix}demote @user
+   × ${prefix}vote [text]
+   × ${prefix}devote
+   × ${prefix}upvote
+   × ${prefix}cekvote
+   × ${prefix}hapusvote
 
 ♕︎ *Downloader*
-   ⚠︎ ${prefix}tiktoknowm [url]
-   ⚠︎ ${prefix}tiktokwm [url]
-   ⚠︎ ${prefix}tiktokmp3 [url]
-   ⚠︎ ${prefix}instagram [url]
-   ⚠︎ ${prefix}twitter [url]
-   ⚠︎ ${prefix}twittermp3 [url]
-   ⚠︎ ${prefix}facebook [url]
-   ⚠︎ ${prefix}pinterestdl [url]
-   ⚠︎ ${prefix}ytmp3 [url]
-   ⚠︎ ${prefix}ytmp4 [url]
-   ⚠︎ ${prefix}getmusic [query]
-   ⚠︎ ${prefix}getvideo [query]
-   ⚠︎ ${prefix}umma [url]
-   ⚠︎ ${prefix}joox [query]
-   ⚠︎ ${prefix}soundcloud [url]
+   × ${prefix}tiktoknowm [url]
+   × ${prefix}tiktokwm [url]
+   × ${prefix}tiktokmp3 [url]
+   × ${prefix}instagram [url]
+   × ${prefix}twitter [url]
+   × ${prefix}twittermp3 [url]
+   × ${prefix}facebook [url]
+   × ${prefix}pinterestdl [url]
+   × ${prefix}ytmp3 [url]
+   × ${prefix}ytmp4 [url]
+   × ${prefix}getmusic [query]
+   × ${prefix}getvideo [query]
+   × ${prefix}umma [url]
+   × ${prefix}joox [query]
+   × ${prefix}soundcloud [url]
 
 ♕︎ *Searching*
-   ⚠︎ ${prefix}play [query]
-   ⚠︎ ${prefix}yts [query]
-   ⚠︎ ${prefix}google [query]
-   ⚠︎ ${prefix}gimage [query]
-   ⚠︎ ${prefix}pinterest [query]
-   ⚠︎ ${prefix}wallpaper [query]
-   ⚠︎ ${prefix}wikimedia [query]
-   ⚠︎ ${prefix}ytsearch [query]
-   ⚠︎ ${prefix}ringtone [query]
-   ⚠︎ ${prefix}stalk [option] [query]
+   × ${prefix}play [query]
+   × ${prefix}yts [query]
+   × ${prefix}google [query]
+   × ${prefix}gimage [query]
+   × ${prefix}pinterest [query]
+   × ${prefix}wallpaper [query]
+   × ${prefix}wikimedia [query]
+   × ${prefix}ytsearch [query]
+   × ${prefix}ringtone [query]
+   × ${prefix}stalk [option] [query]
 
 ♕︎ *Random*
-   ⚠︎ ${prefix}coffe
-   ⚠︎ ${prefix}quotesanime
-   ⚠︎ ${prefix}motivasi
-   ⚠︎ ${prefix}dilanquote
-   ⚠︎ ${prefix}bucinquote
-   ⚠︎ ${prefix}katasenja
-   ⚠︎ ${prefix}puisi
-   ⚠︎ ${prefix}couple
-   ⚠︎ ${prefix}anime
-   ⚠︎ ${prefix}waifu
-   ⚠︎ ${prefix}husbu
-   ⚠︎ ${prefix}neko
-   ⚠︎ ${prefix}shinobu
-   ⚠︎ ${prefix}waifus (nsfw)
-   ⚠︎ ${prefix}nekos (nsfw)
-   ⚠︎ ${prefix}trap (nsfw)
-   ⚠︎ ${prefix}blowjob (nsfw)
+   × ${prefix}coffe
+   × ${prefix}quotesanime
+   × ${prefix}motivasi
+   × ${prefix}dilanquote
+   × ${prefix}bucinquote
+   × ${prefix}katasenja
+   × ${prefix}puisi
+   × ${prefix}couple
+   × ${prefix}anime
+   × ${prefix}waifu
+   × ${prefix}husbu
+   × ${prefix}neko
+   × ${prefix}shinobu
+   × ${prefix}waifus (nsfw)
+   × ${prefix}nekos (nsfw)
+   × ${prefix}trap (nsfw)
+   × ${prefix}blowjob (nsfw)
 
 ♕︎ *Textpro*
-   ⚠︎ ${prefix}3dchristma
-   ⚠︎ ${prefix}3ddeepsea
-   ⚠︎ ${prefix}americanflag
-   ⚠︎ ${prefix}3dscifi
-   ⚠︎ ${prefix}3drainbow
-   ⚠︎ ${prefix}3dwaterpipe
-   ⚠︎ ${prefix}halloweenskeleton
-   ⚠︎ ${prefix}sketch
-   ⚠︎ ${prefix}bluecircuit
-   ⚠︎ ${prefix}space
-   ⚠︎ ${prefix}metallic
-   ⚠︎ ${prefix}fiction
-   ⚠︎ ${prefix}greenhorror
-   ⚠︎ ${prefix}transformer
-   ⚠︎ ${prefix}berry
-   ⚠︎ ${prefix}thunder
-   ⚠︎ ${prefix}magma
-   ⚠︎ ${prefix}3dcrackedstone
-   ⚠︎ ${prefix}3dneonlight
-   ⚠︎ ${prefix}impressiveglitch
-   ⚠︎ ${prefix}naturalleaves
-   ⚠︎ ${prefix}fireworksparkle
-   ⚠︎ ${prefix}matrix
-   ⚠︎ ${prefix}dropwater
-   ⚠︎ ${prefix}harrypotter
-   ⚠︎ ${prefix}foggywindow
-   ⚠︎ ${prefix}neondevils
-   ⚠︎ ${prefix}christmasholiday
-   ⚠︎ ${prefix}3dgradient
-   ⚠︎ ${prefix}blackpink
-   ⚠︎ ${prefix}gluetext
+   × ${prefix}3dchristma
+   × ${prefix}3ddeepsea
+   × ${prefix}americanflag
+   × ${prefix}3dscifi
+   × ${prefix}3drainbow
+   × ${prefix}3dwaterpipe
+   × ${prefix}halloweenskeleton
+   × ${prefix}sketch
+   × ${prefix}bluecircuit
+   × ${prefix}space
+   × ${prefix}metallic
+   × ${prefix}fiction
+   × ${prefix}greenhorror
+   × ${prefix}transformer
+   × ${prefix}berry
+   × ${prefix}thunder
+   × ${prefix}magma
+   × ${prefix}3dcrackedstone
+   × ${prefix}3dneonlight
+   × ${prefix}impressiveglitch
+   × ${prefix}naturalleaves
+   × ${prefix}fireworksparkle
+   × ${prefix}matrix
+   × ${prefix}dropwater
+   × ${prefix}harrypotter
+   × ${prefix}foggywindow
+   × ${prefix}neondevils
+   × ${prefix}christmasholiday
+   × ${prefix}3dgradient
+   × ${prefix}blackpink
+   × ${prefix}gluetext
 
 ♕︎ *Fun*
-   ⚠︎ ${prefix}halah
-   ⚠︎ ${prefix}hilih
-   ⚠︎ ${prefix}huluh
-   ⚠︎ ${prefix}heleh
-   ⚠︎ ${prefix}holoh
-   ⚠︎ ${prefix}jadian
-   ⚠︎ ${prefix}jodohku
-   ⚠︎ ${prefix}delttt
-   ⚠︎ ${prefix}tictactoe
-   ⚠︎ ${prefix}family100
-   ⚠︎ ${prefix}tebak [option]
-   ⚠︎ ${prefix}math [mode]
-   ⚠︎ ${prefix}suitpvp [@tag]
+   × ${prefix}halah
+   × ${prefix}hilih
+   × ${prefix}huluh
+   × ${prefix}heleh
+   × ${prefix}holoh
+   × ${prefix}jadian
+   × ${prefix}jodohku
+   × ${prefix}delttt
+   × ${prefix}tictactoe
+   × ${prefix}family100
+   × ${prefix}tebak [option]
+   × ${prefix}math [mode]
+   × ${prefix}suitpvp [@tag]
 
 ♕︎ *Primbon*
    ⚠︎ ${prefix}nomorhoki
@@ -2904,10 +2903,10 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}unblock @user
    ⚠︎ ${prefix}bcgroup [text]
    ⚠︎ ${prefix}bcall [text]
-   ⚠︎ ${prefix}setppbot [image]
-   ⚠︎ ${prefix}setexif
+   × ${prefix}setppbot [image]
+   × ${prefix}setexif
 `
-var button = [{ buttonId: `dashboard`, buttonText: { displayText: `Dashboard` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `Owner` }, type: 1 }]
+var button = [{ buttonId: `sewa`, buttonText: { displayText: `Sewa Bot乂` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `Owner乂` }, type: 1 }]
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
