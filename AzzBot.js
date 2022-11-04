@@ -2670,17 +2670,17 @@ break
 case 'menu': case 'help': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/PxTQPVrz/null-20220821-WA0032.jpg`
-anu = `Hai kak ${pushname}, have a nice day:)
+anu = `Hai kak ${pushname},Gunakan Bot Dengan Bijak 😀Ya
    
-♕︎ *INFO - BOT*
-✔︎ *Bot Name:* _${global.botname}_
-✔︎ *Owner Name:* _${global.ownername}_
-✔︎ *Runtime:* _${runtime(process.uptime())}_
-✔︎ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
-✔︎ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_ 
-✔︎ *Library:* _Baileys-Md_
+乂 *INFO - BOT*
+Ⓥ *Bot Name:* _${global.botname}_
+Ⓥ *Owner Name:* _${global.ownername}_
+Ⓥ *Runtime:* _${runtime(process.uptime())}_
+Ⓥ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
+Ⓥ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_ 
+Ⓥ *Library:* _Baileys-Md_
 
-♕︎ *Group*
+乂 *Group*
    × ${prefix}linkgroup
    × ${prefix}ephemeral [option]
    × ${prefix}setppgc [image]
@@ -2702,7 +2702,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    × ${prefix}cekvote
    × ${prefix}hapusvote
 
-♕︎ *Downloader*
+乂 *Downloader*
    × ${prefix}tiktoknowm [url]
    × ${prefix}tiktokwm [url]
    × ${prefix}tiktokmp3 [url]
@@ -2719,7 +2719,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    × ${prefix}joox [query]
    × ${prefix}soundcloud [url]
 
-♕︎ *Searching*
+乂 *Searching*
    × ${prefix}play [query]
    × ${prefix}yts [query]
    × ${prefix}google [query]
@@ -2731,7 +2731,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    × ${prefix}ringtone [query]
    × ${prefix}stalk [option] [query]
 
-♕︎ *Random*
+乂 *Random*
    × ${prefix}coffe
    × ${prefix}quotesanime
    × ${prefix}motivasi
@@ -2750,7 +2750,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    × ${prefix}trap (nsfw)
    × ${prefix}blowjob (nsfw)
 
-♕︎ *Textpro*
+乂 *Textpro*
    × ${prefix}3dchristma
    × ${prefix}3ddeepsea
    × ${prefix}americanflag
@@ -2783,7 +2783,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    × ${prefix}blackpink
    × ${prefix}gluetext
 
-♕︎ *Fun*
+乂 *Fun*
    × ${prefix}halah
    × ${prefix}hilih
    × ${prefix}huluh
@@ -2798,111 +2798,111 @@ anu = `Hai kak ${pushname}, have a nice day:)
    × ${prefix}math [mode]
    × ${prefix}suitpvp [@tag]
 
-♕︎ *Primbon*
-   ⚠︎ ${prefix}nomorhoki
-   ⚠︎ ${prefix}artimimpi
-   ⚠︎ ${prefix}artinama
-   ⚠︎ ${prefix}ramaljodoh
-   ⚠︎ ${prefix}ramaljodohbali
-   ⚠︎ ${prefix}suamiistri
-   ⚠︎ ${prefix}ramalcinta
-   ⚠︎ ${prefix}cocoknama
-   ⚠︎ ${prefix}pasangan
-   ⚠︎ ${prefix}jadiannikah
-   ⚠︎ ${prefix}sifatusaha
-   ⚠︎ ${prefix}rezeki
-   ⚠︎ ${prefix}pekerjaan
-   ⚠︎ ${prefix}nasib
-   ⚠︎ ${prefix}penyakit
-   ⚠︎ ${prefix}tarot
-   ⚠︎ ${prefix}fengshui
-   ⚠︎ ${prefix}haribaik
-   ⚠︎ ${prefix}harisangar
-   ⚠︎ ${prefix}harisial
-   ⚠︎ ${prefix}nagahari
-   ⚠︎ ${prefix}arahrezeki
-   ⚠︎ ${prefix}peruntungan
-   ⚠︎ ${prefix}weton
-   ⚠︎ ${prefix}karakter
-   ⚠︎ ${prefix}keberuntungan
-   ⚠︎ ${prefix}memancing
-   ⚠︎ ${prefix}masasubur
-   ⚠︎ ${prefix}zodiak
-   ⚠︎ ${prefix}shio
+乂 *Primbon*
+   × ${prefix}nomorhoki
+   × ${prefix}artimimpi
+   × ${prefix}artinama
+   × ${prefix}ramaljodoh
+   × ${prefix}ramaljodohbali
+   × ${prefix}suamiistri
+   × ${prefix}ramalcinta
+   × ${prefix}cocoknama
+   × ${prefix}pasangan
+   × ${prefix}jadiannikah
+   × ${prefix}sifatusaha
+   × ${prefix}rezeki
+   × ${prefix}pekerjaan
+   × ${prefix}nasib
+   × ${prefix}penyakit
+   × ${prefix}tarot
+   × ${prefix}fengshui
+   × ${prefix}haribaik
+   × ${prefix}harisangar
+   × ${prefix}harisial
+   × ${prefix}nagahari
+   × ${prefix}arahrezeki
+   × ${prefix}peruntungan
+   × ${prefix}weton
+   × ${prefix}karakter
+   × ${prefix}keberuntungan
+   × ${prefix}memancing
+   × ${prefix}masasubur
+   × ${prefix}zodiak
+   × ${prefix}shio
 
-♕︎ *Convert*
-   ⚠︎ ${prefix}toimage
-   ⚠︎ ${prefix}removebg
-   ⚠︎ ${prefix}sticker
-   ⚠︎ ${prefix}emojimix
-   ⚠︎ ${prefix}tovideo
-   ⚠︎ ${prefix}togif
-   ⚠︎ ${prefix}tourl
-   ⚠︎ ${prefix}tovn
-   ⚠︎ ${prefix}tomp3
-   ⚠︎ ${prefix}toaudio
-   ⚠︎ ${prefix}ebinary
-   ⚠︎ ${prefix}dbinary
-   ⚠︎ ${prefix}styletext
+乂 *Convert*
+   × ${prefix}toimage
+   × ${prefix}removebg
+   × ${prefix}sticker
+   × ${prefix}emojimix
+   × ${prefix}tovideo
+   × ${prefix}togif
+   × ${prefix}tourl
+   × ${prefix}tovn
+   × ${prefix}tomp3
+   × ${prefix}toaudio
+   × ${prefix}ebinary
+   × ${prefix}dbinary
+   × ${prefix}styletext
 
-♕︎ *Main*
-   ⚠︎ ${prefix}ping
-   ⚠︎ ${prefix}owner
-   ⚠︎ ${prefix}menu / ${prefix}help / ${prefix}?
-   ⚠︎ ${prefix}delete
-   ⚠︎ ${prefix}infochat
-   ⚠︎ ${prefix}quoted
-   ⚠︎ ${prefix}listpc
-   ⚠︎ ${prefix}listgc
-   ⚠︎ ${prefix}listonline
-   ⚠︎ ${prefix}speedtest
+乂 *Main*
+   × ${prefix}ping
+   × ${prefix}owner
+   × ${prefix}menu / ${prefix}help / ${prefix}?
+   × ${prefix}delete
+   × ${prefix}infochat
+   × ${prefix}quoted
+   × ${prefix}listpc
+   × ${prefix}listgc
+   × ${prefix}listonline
+   × ${prefix}speedtest
 
-♕︎ *Database*
-   ⚠︎ ${prefix}setcmd
-   ⚠︎ ${prefix}listcmd
-   ⚠︎ ${prefix}delcmd
-   ⚠︎ ${prefix}lockcmd
-   ⚠︎ ${prefix}addmsg
-   ⚠︎ ${prefix}listmsg
-   ⚠︎ ${prefix}getmsg
-   ⚠︎ ${prefix}delmsg
+乂 *Database*
+   × ${prefix}setcmd
+   × ${prefix}listcmd
+   × ${prefix}delcmd
+   × ${prefix}lockcmd
+   × ${prefix}addmsg
+   × ${prefix}listmsg
+   × ${prefix}getmsg
+   × ${prefix}delmsg
 
-♕︎ *Anonymous Chat*
-   ⚠︎ ${prefix}anonymous
-   ⚠︎ ${prefix}start
-   ⚠︎ ${prefix}next
-   ⚠︎ ${prefix}keluar
-   ⚠︎ ${prefix}sendkontak
+乂 *Anonymous Chat*
+   × ${prefix}anonymous
+   × ${prefix}start
+   × ${prefix}next
+   × ${prefix}keluar
+   × ${prefix}sendkontak
 
-♕︎ *Islam*
-   ⚠︎ ${prefix}iqra
-   ⚠︎ ${prefix}hadist
-   ⚠︎ ${prefix}alquran
-   ⚠︎ ${prefix}juzamma
-   ⚠︎ ${prefix}tafsirsurah
+乂 *Islam*
+   × ${prefix}iqra
+   × ${prefix}hadist
+   × ${prefix}alquran
+   × ${prefix}juzamma
+   × ${prefix}tafsirsurah
 
-♕︎ *Voice Changer*
-   ⚠︎ ${prefix}bass
-   ⚠︎ ${prefix}blown
-   ⚠︎ ${prefix}deep
-   ⚠︎ ${prefix}earrape
-   ⚠︎ ${prefix}fast
-   ⚠︎ ${prefix}fat
-   ⚠︎ ${prefix}nightcore
-   ⚠︎ ${prefix}reverse
-   ⚠︎ ${prefix}robot
-   ⚠︎ ${prefix}slow
-   ⚠︎ ${prefix}tupai
+乂 *Voice Changer*
+   × ${prefix}bass
+   × ${prefix}blown
+   × ${prefix}deep
+   × ${prefix}earrape
+   × ${prefix}fast
+   × ${prefix}fat
+   × ${prefix}nightcore
+   × ${prefix}reverse
+   × ${prefix}robot
+   × ${prefix}slow
+   × ${prefix}tupai
 
-♕︎ *Owner*
-   ⚠︎ ${prefix}react [emoji]
-   ⚠︎ ${prefix}chat [option]
-   ⚠︎ ${prefix}join [link]
-   ⚠︎ ${prefix}leave
-   ⚠︎ ${prefix}block @user
-   ⚠︎ ${prefix}unblock @user
-   ⚠︎ ${prefix}bcgroup [text]
-   ⚠︎ ${prefix}bcall [text]
+乂 *Owner*
+   × ${prefix}react [emoji]
+   × ${prefix}chat [option]
+   × ${prefix}join [link]
+   × ${prefix}leave
+   × ${prefix}block @user
+   × ${prefix}unblock @user
+   × ${prefix}bcgroup [text]
+   × ${prefix}bcall [text]
    × ${prefix}setppbot [image]
    × ${prefix}setexif
 `
